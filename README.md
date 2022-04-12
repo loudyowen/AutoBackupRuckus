@@ -1,7 +1,7 @@
 # AutoBackupRuckus
 This script is for backing up Ruckus device automatically with multiple IP and multiple user, this script is using python and Netmiko.
 For netmiko guide can be found here : https://github.com/ktbyers/netmiko
-#How it works:
+# How it works:
 1. The script is using netmiko library for connecting the device
 2. First it will open the Ruckus IP and loop all the IP in the file
 3. Then it will loop the user in files/UserList.json to login to the first IP in the files/IPRuckus.txt
