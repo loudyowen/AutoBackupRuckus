@@ -9,6 +9,7 @@ For netmiko guide can be found here : https://github.com/ktbyers/netmiko
 5. If the user logged in then it will run the command to run the backup, just like you use the command for backup manually
 6. After that it will close the connection and write in the log.txt
 # What you need to do
-1. Change the list of IP using your Ruckus devices IP in folder Files/IPRuckus.txt
-2. Change the list of User using your Username and Password in folder Files/UserList.json
-3. For it to run automaticaly you can use task scheduller for windows or using cron job for linux
+1. Install netmiko
+2. Change the list of IP using your Ruckus devices IP in folder Files/IPRuckus.txt
+3. Change the list of User using your Username and Password in folder Files/UserList.json
+4. For it to run automaticaly you can use task scheduller for windows or using cron job for linux
